@@ -6,6 +6,17 @@
 // }
 // let res = calcLength("Hellow my name is abhishek shrivastav");
 // console.log(res);
+// 3.find the smallest number in an array
+// function findSmallest(arr) {
+//   arr.reduce((acc, num) => {
+//     if (acc > num) {
+//       return num;
+//     }
+//     return acc;
+//   }, acc[0]);
+// }
+// let res = findSmallest([25, 45, 65, 4, 34, 7, 71, 22, 12, 17, 92, 9]);
+// console.log(res);;
 
 // 2.write a function to convert Celsius to farenhite
 // function temp(c) {
@@ -60,15 +71,8 @@
 // ]);
 // console.log(res);
 
-// 3.find the smallest number in an array
-function findSmallest(arr) {
-  arr.reduce((acc, num) => {
-    if (num>acc) {
-      return num;
-    }
-    return acc;
-  }, acc[0]);
+function countSting(arr) {
+  return arr.split("").length;
 }
-let res = findSmallest([25, 45, 65, 4, 34, 7, 71, 22, 12, 17, 92, 9]);
+let res = countSting("abhishek");
 console.log(res);
-
