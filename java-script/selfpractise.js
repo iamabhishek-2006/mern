@@ -193,14 +193,19 @@
 // var arr=[10,20,33,49,84,100,105];
 // let arr2=arr.findIndex((val)=>val%3===0 && val%7===0);
 // console.log(arr2);
-var arr = [10, 20, 33, 49, 84, 100, 105];
-var arr2 = arr.reduce((acc, curr, i) => {
-  if (curr % 3 === 0 && curr % 7 === 0) {
-    acc.push(i);
-    return acc;
-  }
-  return acc;
-}, []);
-console.log(arr2);
+// var arr = [10, 20, 33, 49, 84, 100, 105];
+// var arr2 = arr.reduce((acc, curr, i) => {
+//   if (curr % 3 === 0 && curr % 7 === 0) {
+//     acc.push(i);
+//     return acc;
+//   }
+//   return acc;
+// }, []);
+// console.log(arr2);
+
+
+
+
+
  
 
