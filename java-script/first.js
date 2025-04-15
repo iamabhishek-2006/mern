@@ -202,5 +202,3 @@ var arr2 = arr.reduce((acc, curr, i) => {
   return acc;
 }, []);
 console.log(arr2);
- 
-
