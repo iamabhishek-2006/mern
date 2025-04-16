@@ -89,16 +89,16 @@
 // console.log(array2);
 
 /* find the sum of all even numbers in array */
-function findEven(array) {
-  return array.reduce((acc, num) => {
-    if (num % 2 == 0) {
-      return acc+num;
-    }
-    return acc;
-  }, 0);
-}
-let res = findEven([2, 3, 6, 4, 5, 7, 8, 65, 22, 42, 78]);
-console.log(res);
+// function findEven(array) {
+//   return array.reduce((acc, num) => {
+//     if (num % 2 == 0) {
+//       return acc+num;
+//     }
+//     return acc;
+//   }, 0);
+// }
+// let res = findEven([2, 3, 6, 4, 5, 7, 8, 65, 22, 42, 78]);
+// console.log(res);
 
 /* merge two objects */
 // let obj1 = {
@@ -117,16 +117,16 @@ console.log(res);
 // console.log(obj3);
 
 // write a funcnction to remove duplicates from an array
-// function removeSame(arry) {
-//   return arry.reduce((acc, num) => {
-//     if (!acc.includes(num)) {
-//       acc.push(num);
-//     }
-//     return acc;
-//   }, []);
-// }
-// let res = removeSame([4, 5, 4, 9, 6, 3, 4, 9, 8]);
-// console.log(res);
+function removeSame(arry) {
+  return arry.reduce((acc, num) => {
+    if (!acc.includes(num)) {
+      acc.push(num);
+    }
+    return acc;
+  }, []);
+}
+let res = removeSame([4, 5, 4, 9, 6, 3, 4, 9, 8]);
+console.log(res);
 
 /* count the numbers of vovels in a string */
 // let str = "my name is naman";
@@ -274,3 +274,15 @@ console.log(res);
 
 /* check if an object has  a specific  properties */
 /* Convert if all elements into an array of key -value pairs */
+
+// Remove all falsy values from an array (false, 0, "", null, undefined, NaN).
+
+// let arr=[false,0,,1,2,4," ","Abhishek",null,"undefined",NaN,];
+// let arr2=arr.reduce((acc,curr)=>{
+//                arr.filter((v)=>{
+//                    if
+//                })
+// })
+
+
+
